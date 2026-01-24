@@ -61,7 +61,7 @@ export default function SkillsAndContact() {
           </h2>
           
           <p className="text-lg text-neutral-400 mb-10 max-w-xl mx-auto leading-relaxed">
-            Whether you have a question, a project idea, or just want to discuss the latest in AI and Web Dev — my inbox is always open.
+            Whether you have a question, a project idea, or just want to discuss the latest in AI and Web Dev, my inbox is always open.
           </p>
 
           <div className="flex flex-col md:flex-row gap-6 justify-center items-center mb-12">
