@@ -1,5 +1,5 @@
 import React from 'react';
-import { Briefcase, Calendar, ExternalLink, Github, Code2, Terminal, Cpu } from 'lucide-react';
+import { Briefcase, Calendar, ExternalLink, Github, Code2, Terminal, Cpu, Shield, Zap } from 'lucide-react';
 
 export default function ExperienceAndProjects() {
   return (
@@ -81,7 +81,40 @@ export default function ExperienceAndProjects() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             
-            {/* Project 1: SkillsCoach */}
+            {/* Project 1: Multithreaded I/O Pipeline */}
+            <ProjectCard 
+              title="Multi-threaded I/O Pipeline"
+              tagline="High-Performance C Processor"
+              tech={["C", "pthreads", "HPCC"]}
+              description="A concurrent producer-consumer architecture to process and categorize 4 billion integer values in under 30 minutes on an HPCC system."
+              liveLink="https://github.com/lbm-realty/Mutlithreaded-Data-Pipeline"
+              repoLink="#" 
+              icon={<Code2 className="text-orange-500" size={32} />}
+            />
+
+            {/* Project 2: Multithreaded I/O Pipeline */}
+            <ProjectCard 
+              title="Network Data Interceptor"
+              tagline="Multithreaded Security Proxy"
+              tech={["C", "TCP Sockets"]}
+              description="High performance reverse proxy preventing AI API data leaks and capable of handling ~3,500 Req/sec with 7.6ms latency."
+              liveLink="#"
+              repoLink="https://github.com/lbm-realty/Network-Inspector"
+              icon={<Shield className="text-purple-500" size={32} />}
+            />
+
+            {/* Project 3: CUDA Optimization Series */}
+            <ProjectCard 
+              title="CUDA Optimization: Matrix Math"
+              tagline="1000x Speedup & Memory Tiling"
+              tech={["C/C++", "CUDA"]}
+              description="Engineered a high-performance GPU compute pipeline. Achieved a 1000x speedup over sequential execution, then implemented 2D shared memory tiling to process massive 16,384x16,384 matrices."
+              liveLink="https://github.com/lbm-realty/Matrix-Multiplication-Tile"
+              repoLink="#"
+              icon={<Zap className="text-yellow-500" size={32} />}
+            />
+
+            {/* Project 4: SkillsCoach */}
             <ProjectCard 
               title="SkillsCoach"
               tagline="AI-Driven Interview Simulator"
@@ -92,7 +125,7 @@ export default function ExperienceAndProjects() {
               icon={<Code2 className="text-orange-500" size={32} />}
             />
 
-            {/* Project 2: DevsMerge */}
+            {/* Project 5: DevsMerge */}
             <ProjectCard 
               title="DevsMerge"
               tagline="Developer Collaboration Platform"
@@ -103,7 +136,7 @@ export default function ExperienceAndProjects() {
               icon={<Terminal className="text-blue-500" size={32} />}
             />
 
-            {/* Project 3: TTU MSA Website */}
+            {/* Project 6: TTU MSA Website */}
             <ProjectCard 
               title="TTU MSA Portal"
               tagline="Organization Management System"
@@ -114,7 +147,7 @@ export default function ExperienceAndProjects() {
               icon={<Briefcase className="text-green-500" size={32} />}
             />
 
-             {/* Project 4: C Neural Network */}
+             {/* Project 7: C Neural Network */}
              <ProjectCard 
               title="Neural Network in C"
               tagline="Low-Level ML Optimization"
@@ -125,7 +158,7 @@ export default function ExperienceAndProjects() {
               icon={<Cpu className="text-purple-500" size={32} />}
             />
 
-            {/* Project 5: WildView */}
+            {/* Project 8: WildView */}
             <ProjectCard 
               title="WildView"
               tagline="Wildlife Sighting Tracker"
@@ -136,7 +169,7 @@ export default function ExperienceAndProjects() {
               icon={<ExternalLink className="text-teal-500" size={32} />}
             />
 
-             {/* Project 6: Chrome Extension */}
+             {/* Project 9: Chrome Extension */}
              <ProjectCard 
               title="YouTube Note Taker"
               tagline="Chrome Extension"
