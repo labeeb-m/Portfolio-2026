@@ -33,7 +33,7 @@ export default function Hero() {
         {/* Social Links */}
         <div className="flex items-center justify-center md:justify-start gap-4 pt-4">
           <SocialButton
-            href="https://github.com/lbm-realty"
+            href="https://github.com/labeeb-m"
             icon={<Github size={20} />}
             label="GitHub"
           />
@@ -86,7 +86,7 @@ export default function Hero() {
             <div className="flex items-center gap-2 mt-1">
               <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
               <span className="text-sm font-semibold text-white">
-                Graduating May 2026
+                Graduated May 2026
               </span>
             </div>
           </div>

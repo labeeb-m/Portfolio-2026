@@ -39,7 +39,7 @@ export default function ExperienceAndProjects() {
             <ExperienceCard 
               title="Student Grader"
               company="Texas Tech Department of CS"
-              period="Sept 2024 – Present"
+              period="Sept 2025 – Jan 2026"
               tech={["C Language", "Teaching", "Debugging"]}
               description={[
                 "Evaluated 200+ exams and programming assignments, ensuring detailed feedback on C concepts.",
